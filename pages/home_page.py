@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
-from time import sleep
+from base_page import BasePage
+
 
 class HomePage(BasePage):
     # selectors
